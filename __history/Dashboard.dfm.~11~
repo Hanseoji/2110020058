@@ -1,0 +1,57 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'SISTEM INFORMASI RETRIBUSI PENGANTIAN CETAK PETA'
+  ClientHeight = 522
+  ClientWidth = 761
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object MainMenu1: TMainMenu
+    Left = 120
+    Top = 160
+    object MASTER1: TMenuItem
+      Caption = 'MASTER'
+      object EnrtyRetribusi1: TMenuItem
+        Caption = 'Enrty Retribusi'
+      end
+      object EntryPemohon1: TMenuItem
+        Caption = 'Entry Pemohon'
+      end
+    end
+    object RANSAKSI1: TMenuItem
+      Caption = 'TRANSAKSI'
+      object EntryPermohonan1: TMenuItem
+        Caption = 'Entry Permohonan'
+      end
+      object CetakStatusLahan1: TMenuItem
+        Caption = 'Cetak Status Lahan'
+      end
+      object CetakStatusLahan2: TMenuItem
+        Caption = 'Cetak SKR'
+      end
+      object CEtakTBP1: TMenuItem
+        Caption = 'Cetak TBP'
+      end
+      object EntrySlipSetoranTervalidasi1: TMenuItem
+        Caption = 'Entry Slip Setoran Tervalidasi'
+      end
+      object EntrySlipSetoranTervalidasi2: TMenuItem
+        Caption = 'Cetak STS'
+      end
+    end
+    object CETAKBUKUBESAR1: TMenuItem
+      Caption = 'CETAK BUKU BESAR'
+    end
+    object CETAKBUKUBESAR2: TMenuItem
+      Caption = 'KELUAR'
+    end
+  end
+end

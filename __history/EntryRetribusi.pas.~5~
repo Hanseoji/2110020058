@@ -1,0 +1,110 @@
+unit EntryRetribusi;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.DB, Vcl.StdCtrls, Vcl.Grids,
+  Vcl.DBGrids, Vcl.ExtCtrls;
+
+type
+  TForm4 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Shape1: TShape;
+    GroupBox1: TGroupBox;
+    Label3: TLabel;
+    Label4: TLabel;
+    edit_kode: TEdit;
+    edit_jenis: TEdit;
+    edit_ukuran: TEdit;
+    edit_tarif: TEdit;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    DBGrid1: TDBGrid;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+uses Umodul;
+
+procedure TForm4.Button1Click(Sender: TObject);
+begin
+begin
+ try
+  with master01 do
+  begin
+    if Trim(edit_kode.Text)='' then
+      begin
+        beep;
+        ShowMessage('Kode Rekening Belum Diisi');
+        edit_id.SetFocus;
+      end else
+    if Trim(edit_jenis.Text)='' then
+        begin
+          beep;
+          ShowMessage('Jenis Belum Diisi');
+          edit_cabor.SetFocus;
+        end else
+    if Trim(edit_ukuran.text)='' then
+        begin
+          beep;
+          ShowMessage('Ukuran Peta Belum diisi');
+          edit_ketua.SetFocus;
+        end else
+    if Trim(edit_tarif.text)='' then
+        begin
+          beep;
+          ShowMessage('Tarif Peta Belum diisi');
+          edit_sekretaris.SetFocus;
+        end else
+
+    if QueryPengprov.locate('id_pengprov',edit_id.text,[]) then
+        begin
+          beep;
+          ShowMessage('ID Sudah terdaftar');
+          edit_cabor.text:= QueryPengprovnama_cabor.AsString;
+          dt_tglberdiri.date := QueryPengprovtgl_berdiri.AsDateTime;
+          edit_ketua.text:= QueryPengprovketua.AsString;
+          edit_sekretaris.text:= QueryPengprovsekretaris.AsString;
+          edit_alamat.text:= QueryPengprovalamat.AsString;
+          edit_kota.text:= QueryPengprovkabkota.AsString;
+          edit_telp.text:= QueryPengprovtlp.AsString;
+          edit_web.text := QueryPengprovwebsite.AsString;
+        end else
+        begin
+          QueryPengprov.Append;
+          QueryPengprovid_pengprov.AsString:=edit_id.Text;
+          QueryPengprovnama_cabor.AsString:=edit_cabor.Text;
+          QueryPengprovtgl_berdiri.AsDateTime:=dt_Tglberdiri.date;
+          QueryPengprovketua.AsString:=edit_ketua.text;
+          QueryPengprovsekretaris.AsString:= edit_sekretaris.text;
+          QueryPengprovalamat.AsString:= edit_alamat.text;
+          QueryPengprovkabkota.AsString:=edit_kota.text;
+          QueryPengprovtlp.AsString:=edit_telp.text;
+          QueryPengprovwebsite.AsString:=edit_web.text;
+          QueryPengprov.post;
+        end;
+  end;
+ except
+  on salah:Exception do
+  ShowMessage(salah.Message);
+ end;
+end;
+
+end;
+
+end.

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/05/15 14:11:50.000.616,=C:\Users\parso\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/15 14:19:19.000.873,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit1.pas=C:\Users\parso\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/05/15 14:19:19.000.873,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit1.dfm=C:\Users\parso\OneDrive\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/05/15 14:19:56.000.130,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Project1.dproj=C:\Users\parso\OneDrive\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/05/15 14:20:14.000.303,=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit2.pas</Transaction>
+    <Transaction>2023/05/15 14:20:38.000.029,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Umodul.pas=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit2.pas</Transaction>
+    <Transaction>2023/05/15 14:20:38.000.029,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Umodul.dfm=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit2.dfm</Transaction>
+    <Transaction>2023/05/15 16:30:45.000.033,=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit2.pas</Transaction>
+    <Transaction>2023/05/15 16:32:22.000.398,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit2.dfm=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Login.dfm</Transaction>
+    <Transaction>2023/05/15 16:32:22.000.398,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit2.pas=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Login.pas</Transaction>
+    <Transaction>2023/05/15 16:53:09.000.506,=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit3.pas</Transaction>
+    <Transaction>2023/05/15 16:53:38.000.832,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit3.dfm=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Dashboard.dfm</Transaction>
+    <Transaction>2023/05/15 16:53:38.000.832,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit3.pas=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Dashboard.pas</Transaction>
+    <Transaction>2023/05/15 17:44:46.000.817,=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit4.pas</Transaction>
+    <Transaction>2023/05/15 17:46:08.000.875,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\EntryRetribusi.dfm=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit4.dfm</Transaction>
+    <Transaction>2023/05/15 17:46:08.000.875,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\EntryRetribusi.pas=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit4.pas</Transaction>
+    <Transaction>2023/05/16 06:16:43.000.629,=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit5.pas</Transaction>
+    <Transaction>2023/05/16 06:17:20.000.177,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit5.pas=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\EntryPemohon.pas</Transaction>
+    <Transaction>2023/05/16 06:17:20.000.177,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit5.dfm=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\EntryPemohon.dfm</Transaction>
+    <Transaction>2023/05/16 06:18:42.000.627,=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit6.pas</Transaction>
+    <Transaction>2023/05/16 06:19:07.000.368,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit6.dfm=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\EntryPermohonan.dfm</Transaction>
+    <Transaction>2023/05/16 06:19:07.000.368,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit6.pas=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\EntryPermohonan.pas</Transaction>
+    <Transaction>2023/05/16 06:23:57.000.012,=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit7.pas</Transaction>
+    <Transaction>2023/05/16 06:24:16.000.270,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit7.pas=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\CetakStatusLahan.pas</Transaction>
+    <Transaction>2023/05/16 06:24:16.000.270,C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\Unit7.dfm=C:\Users\parso\OneDrive\Documents\Sistem Informasi Retribusi Pergantian Cetak Peta\CetakStatusLahan.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

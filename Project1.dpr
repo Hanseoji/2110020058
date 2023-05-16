@@ -1,0 +1,28 @@
+program Project1;
+
+uses
+  Vcl.Forms,
+  Unit1 in 'Unit1.pas' {Form1},
+  Umodul in 'Umodul.pas' {DataModule1: TDataModule},
+  Login in 'Login.pas' {Form2},
+  Dashboard in 'Dashboard.pas' {Form3},
+  EntryRetribusi in 'EntryRetribusi.pas' {Form4},
+  EntryPemohon in 'EntryPemohon.pas' {Form5},
+  EntryPermohonan in 'EntryPermohonan.pas' {Form6},
+  CetakStatusLahan in 'CetakStatusLahan.pas' {Form7};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TDataModule1, DataModule1);
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TForm3, Form3);
+  Application.CreateForm(TForm4, Form4);
+  Application.CreateForm(TForm5, Form5);
+  Application.CreateForm(TForm6, Form6);
+  Application.CreateForm(TForm7, Form7);
+  Application.Run;
+end.

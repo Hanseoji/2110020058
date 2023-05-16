@@ -1,0 +1,50 @@
+unit Dashboard;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.XPMan, Vcl.StdCtrls,
+  Vcl.Imaging.pngimage, Vcl.ExtCtrls, Vcl.Menus;
+
+type
+  TForm3 = class(TForm)
+    MainMenu1: TMainMenu;
+    MASTER1: TMenuItem;
+    EnrtyRetribusi1: TMenuItem;
+    EntryPemohon1: TMenuItem;
+    RANSAKSI1: TMenuItem;
+    EntryPermohonan1: TMenuItem;
+    CetakStatusLahan1: TMenuItem;
+    CetakStatusLahan2: TMenuItem;
+    CEtakTBP1: TMenuItem;
+    EntrySlipSetoranTervalidasi1: TMenuItem;
+    EntrySlipSetoranTervalidasi2: TMenuItem;
+    CETAKBUKUBESAR1: TMenuItem;
+    CETAKBUKUBESAR2: TMenuItem;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    procedure Button7Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form3: TForm3;
+
+implementation
+
+{$R *.dfm}
+
+uses EntryRetribusi, Login;
+
+procedure TForm3.Button7Click(Sender: TObject);
+begin
+  application.terminate;
+end;
+
+end.
